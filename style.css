@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Harry Potter';
+  src: url('Harry-Potter.ttf.eot'); 
+  src: url('Harry-Potter.ttf.woff') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,36 +19,37 @@
     height: 45vh;
     width: 20vw;
     border: 12px solid #024526;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 50px;
-    z-index: 1000;
+    
 }
 
 .navbar ul {
-    margin-top: -275px;
+    margin-top: -310px;
     margin-left: 275px;
     text-align: center;
 }
 
 .navbar li {
     display: inline;
-    padding: 50px 20px 10px 80px;
+    padding: 50px 20px 50px 80px;
 }
 
 .navbar a {
     list-style: none;
     text-decoration: none;
     color: inherit;
-    font-family: 'Almendra SC', serif;
+    font-family: 'Harry Potter';
     color: bisque;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .border hr {
     background-color: #024526;
     height: 10px;
-    margin-top: 22px;
-    border: 1px solid transparent
+    margin-top: -10px;
+    border: 4px solid transparent;
+    z-index: 1;
 }
 
 /*Welcome Section*/
@@ -54,6 +61,53 @@
     background-attachment:fixed;
     background-position-x: right;
     height: 80vh; 
+}
+
+.welcome-text pre {
+    font-family: 'Harry Potter';
+    color: ivory;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-align: center; 
+    padding: 115px 70px;
+    text-shadow: 2px 2px black;
+}
+
+.welcome-text button {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px black;
+    border: 2px solid white;
+    background-color: transparent;
+    height: 80px;
+    width: 275px;
+    top: 0%;
+    left: 0%;
+    transform: translate(275%, -100%);
+    -webkit-transform: translate(275%, -100%);
+    -moz-transform: translate(275%, -100%);
+    -ms-transform: translate(275%, -100%);
+    -o-transform: translate(275%, -100%);
+}
+
+.welcome-text button:hover {
+    color: #650505;
+    font-weight: bolder; 
+    border: 2px solid #650505;
+    text-shadow: none;
+    background-color: ivory;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.welcome-text a {
+    text-decoration: none; 
+    color: inherit;
 }
 
 /* Specials Section*/

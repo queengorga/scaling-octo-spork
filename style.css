@@ -2,3 +2,63 @@
     margin: 0;
     padding: 0;
 }
+
+.header {
+    height: 25vh;
+    width: 100%;
+    background-color: #650505;
+}
+
+.header img {
+    height: 45vh;
+    width: 20vw;
+    border: 12px solid #024526;
+    margin-top: 20px;
+    margin-left: 50px;
+    z-index: 1000;
+}
+
+.navbar ul {
+    margin-top: -275px;
+    margin-left: 275px;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    padding: 50px 20px 10px 80px;
+}
+
+.navbar a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Almendra SC', serif;
+    color: bisque;
+    font-size: 40px;
+}
+
+.border hr {
+    background-color: #024526;
+    height: 10px;
+    margin-top: 22px;
+    border: 1px solid transparent
+}
+
+/*Welcome Section*/
+
+.welcome {
+    background-image: url(img/cauldron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position-x: right;
+    height: 80vh; 
+}
+
+/* Specials Section*/
+
+.specials {
+    background-color: bisque;
+    height: 80vh;
+}

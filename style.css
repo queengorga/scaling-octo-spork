@@ -111,7 +111,7 @@
 
 .specials {
     background-color: bisque;
-    height: 100vh;
+    height: 140vh;
 }
 
 .order-container img {
@@ -186,4 +186,18 @@
     -moz-transform:translate(31.5%, -1250%);
     -ms-transform:translate(31.5%, -1250%);
     -o-transform:translate(31.5%, -1250%);
+}
+
+.specials-row {
+    display: inline-flex;
+}
+
+.specials-row .row {
+    border: 2px solid #5E0351;
+    height: 300px;
+    width: 300px;
+}
+
+.row {
+    margin: 25px;
 }

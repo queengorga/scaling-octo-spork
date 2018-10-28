@@ -195,9 +195,22 @@
 .specials-row .row {
     border: 2px solid #5E0351;
     height: 300px;
-    width: 300px;
+    width: 356px;
 }
 
 .row {
-    margin: 25px;
+    margin: 20px;
+    top: 0;
+    left: 0;
+    transform:translate(45%, -100%);
+    -webkit-transform:translate(45%, -100%);
+    -moz-transform:translate(45%, -100%);
+    -ms-transform:translate(45%, -100%);
+    -o-transform:translate(45%, -100%);
+}
+
+.row h1 {
+    font-family: 'Harry Potter';
+    font-size: 30px;
+    letter-spacing: 2px;
 }

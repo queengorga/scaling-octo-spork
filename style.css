@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+body {
+    background-color: black;
+}
+
 .header {
     height: 25vh;
     width: 100%;
@@ -19,28 +23,27 @@
     height: 30vh;
     width: 15vw;
     border: 12px solid #024526;
-    margin-top: 20px;
-    margin-left: 50px;
     background-position-x: top;
+    margin: 34px;
 }
 
 .navbar-header {
     font-family: 'Harry Potter';
     font-size: 50px;
     color: bisque;
-    letter-spacing: 10px;
-    margin-top: 12px;
-    margin-bottom: 10px;
+    letter-spacing: 10px;   
+    margin-top: -275px;
 }
+
 .navbar ul {
-    margin-top: -250px;
-    margin-left: 275px;
     text-align: center;
+    margin-left: 175px;
+    padding-left: 30px;
 }
 
 .navbar li {
     display: inline;
-    padding: 50px 50px 50px 50px;
+    padding-left: 50px;
 }
 
 .navbar a {
@@ -68,6 +71,7 @@
     background-attachment:fixed;
     background-position-x: right;
     height: 80vh; 
+    width: 100%; 
 }
 
 .welcome-text pre {
@@ -76,9 +80,13 @@
     font-size: 40px;
     font-weight: lighter;
     letter-spacing: 5px;
-    text-align: center; 
-    padding: 115px 70px;
+    text-align: center;
     text-shadow: 2px 2px black;
+    transform:translate(-5%, 50%);
+    -moz-transform:translate(-5%, 50%);
+    -ms-transform:translate(-5%, 50%);
+    -o-transform:translate(-5%, 50%);
+    -webkit-transform:translate(-5%, 50%);
 }
 
 .welcome-text button {
@@ -90,13 +98,11 @@
     background-color: transparent;
     height: 80px;
     width: 275px;
-    top: 0%;
-    left: 0%;
-    transform: translate(275%, -100%);
-    -webkit-transform: translate(275%, -100%);
-    -moz-transform: translate(275%, -100%);
-    -ms-transform: translate(275%, -100%);
-    -o-transform: translate(275%, -100%);
+    transform: translate(250%, 175%);
+    -webkit-transform: translate(250%, 175%);
+    -moz-transform: translate(250%, 175%);
+    -ms-transform: translate(250%, 175%);
+    -o-transform: translate(250%, 175%);
 }
 
 .welcome-text button:hover {
@@ -120,16 +126,25 @@
 /* Specials Section*/
 
 .specials {
-    background-color: bisque;
-    height: 140vh;
+    height: 180vh;
+    width: 100%; 
+    background-image: url(img/specialsbg.jpg);
+    background-size: cover; 
+    background-position: center; 
 }
 
 .order-container img {
     border: 6px solid #5E0351;
     height: 400px;
-    width: 1150px;
-    margin: 100px 180px;
+    width: 1250px;
+    transform: translate(10%,20%);
+    -webkit-transform: translate(10%,20%);
+    -moz-transform: translate(10%,20%);
+    -ms-transform: translate(10%,20%);
+    -o-transform: translate(10%,20%);
+    position: absolute;
 }
+
 .order-container h1 {
     font-family: 'Harry Potter';
     font-size: 70px;
@@ -137,36 +152,28 @@
     letter-spacing: 5px;
     text-shadow: 3px 3px 3px black;
     color: white;
-    top: 0;
-    left: 0;
-    transform:translate(27%, -400%);
-    -webkit-transform:translate(27%, -400%);
-    -moz-transform:translate(27%, -400%);
-    -ms-transform:translate(27%, -400%);
-    -o-transform:translate(27%, -400%);
+    padding-top: 150px;
+    padding-left: 420px;
+    position: absolute;
 }
 
 .button-line {
-    display: inline-block;
+    padding-top: 225px; 
+    padding-left: 475px;
 }
 
 .button-line button {
     height: 80px;
     width: 250px;
-    margin: 10px;
     background-color: transparent;
     border: 4px solid whitesmoke;
     font-family: 'Cuprum', sans-serif;
     font-size: 40px;
     text-shadow: 2px 2px 2px black;
     color: white;
-    top: 0;
-    left: 0;
-    transform:translate(200%, -500%);
-    -webkit-transform:translate(200%, -500%);
-    -moz-transform:translate(200%, -500%);
-    -ms-transform:translate(200%, -500%);
-    -o-transform:translate(200%, -500%);
+    margin-top: 50px;
+    margin-left: 30px;
+    position: relative;
 }
 
 .button-line button:hover {
@@ -184,18 +191,14 @@
 
 .delivery-note {
     font-family: 'Cuprum', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: 2px;
     text-shadow: 3px 3px 3px black;
     color: white;
-    top: 0;
-    left: 0;
-    transform:translate(31.5%, -1250%);
-    -webkit-transform:translate(31.5%, -1250%);
-    -moz-transform:translate(31.5%, -1250%);
-    -ms-transform:translate(31.5%, -1250%);
-    -o-transform:translate(31.5%, -1250%);
+    padding-top: 50px;
+    padding-left: 440px;
+    position: relative;
 }
 
 .specials-row {
@@ -205,18 +208,18 @@
 .specials-row .row {
     border: 6px solid #5E0351;
     height: 300px;
-    width: 362px;
+    width: 396px;
 }
 
 .row {
     margin: 10px;
     top: 0;
     left: 0;
-    transform:translate(45%, -105%);
-    -webkit-transform:translate(45%, -105%);
-    -moz-transform:translate(45%, -105%);
-    -ms-transform:translate(45%, -105%);
-    -o-transform:translate(45%, -105%);
+    transform:translate(28%, 25%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 
 .row h1 {
@@ -276,7 +279,10 @@
 #offers h1 {
     font-size: 50px;
     margin-top: 30px;
-    margin-bottom: 120px;
+}
+
+#offers button {
+    margin-top: 120px;
 }
 
 #gift-card {
@@ -287,6 +293,94 @@
 
 #gift-card h1 {
     font-size: 40px;
+    margin-top: 30px;
+}
+
+#gift-card button {
+    margin-top: 135px;
+}
+
+.menus-row {
+    display: inline-flex;
+}
+
+.menus-row .row-menu {
+    border: 6px solid #5E0351;
+    height: 350px;
+    width: 610px;
+}
+
+.row-menu {
+   margin: 10px;
+   top: 0;
+   left: 0;
+   transform:translate(18%, 25%);
+   -webkit-transform:translate(18%, 25%);
+   -moz-transform:translate(18%, 25%);
+   -ms-transform:translate(18%, 25%);
+   -o-transform:translate(18%, 25%);
+}
+
+.row-menu h1 {
+    font-family: 'Harry Potter';
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: lighter;
+    text-shadow: 2px 2px black;
+    text-align: right;
     margin-top: 20px;
-    margin-bottom: 142px;
+    margin-right: 20px;
+}
+
+.row-menu button {
+    position: relative;
+    height: 50px;
+    width: 275px;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    float: right;
+    margin-right: 25px;
+    
+}
+
+.row-menu button:hover {
+    background-color: ivory;
+    border: 4px solid #5E0351;
+    font-family: 'Cuprum', sans-serif;
+    text-shadow: none;
+    color: #5E0351;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.row-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#dinner {
+    background-image: url(img/dinner.jpg);
+    background-size: cover;
+    background-position-x: top;
+}
+
+#dinner button {
+    margin-top: 100px;
+}
+
+#lunch {
+    background-image: url(img/lunch.jpg);
+    background-size: cover;
+}
+
+#lunch button {
+    margin-top: 175px;
 }

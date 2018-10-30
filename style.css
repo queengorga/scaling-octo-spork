@@ -16,22 +16,31 @@
 }
 
 .header img {
-    height: 45vh;
-    width: 20vw;
+    height: 30vh;
+    width: 15vw;
     border: 12px solid #024526;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
+    background-position-x: top;
 }
 
+.navbar-header {
+    font-family: 'Harry Potter';
+    font-size: 50px;
+    color: bisque;
+    letter-spacing: 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
 .navbar ul {
-    margin-top: -300px;
+    margin-top: -250px;
     margin-left: 275px;
     text-align: center;
 }
 
 .navbar li {
     display: inline;
-    padding: 50px 20px 50px 80px;
+    padding: 50px 50px 50px 50px;
 }
 
 .navbar a {
@@ -40,7 +49,8 @@
     color: inherit;
     font-family: 'Harry Potter';
     color: bisque;
-    font-size: 45px;
+    font-size: 37px;
+    letter-spacing: 5px;
 }
 
 .border hr {
@@ -193,24 +203,90 @@
 }
 
 .specials-row .row {
-    border: 2px solid #5E0351;
+    border: 6px solid #5E0351;
     height: 300px;
-    width: 356px;
+    width: 362px;
 }
 
 .row {
-    margin: 20px;
+    margin: 10px;
     top: 0;
     left: 0;
-    transform:translate(45%, -100%);
-    -webkit-transform:translate(45%, -100%);
-    -moz-transform:translate(45%, -100%);
-    -ms-transform:translate(45%, -100%);
-    -o-transform:translate(45%, -100%);
+    transform:translate(45%, -105%);
+    -webkit-transform:translate(45%, -105%);
+    -moz-transform:translate(45%, -105%);
+    -ms-transform:translate(45%, -105%);
+    -o-transform:translate(45%, -105%);
 }
 
 .row h1 {
     font-family: 'Harry Potter';
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 2px;
+    color: white; 
+    font-weight: lighter;
+    text-shadow: 2px 2px black;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 20px; 
+}
+
+.row button {
+    position: relative;
+    height: 50px;
+    width: 200px;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white; 
+    text-shadow: 2px 2px 2px black;
+    float: right;
+    margin-right: 20px;
+}
+
+.row button:hover {
+    background-color: ivory;
+    border: 4px solid #5E0351;
+    font-family: 'Cuprum', sans-serif;
+    text-shadow: none;
+    color: #5E0351;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.row a {
+    text-decoration: none; 
+    color: inherit;
+}
+#serve {
+    background-image: url(img/served.jpg);
+    background-size: contain;
+}
+
+#offers {
+    background-image: url(img/offers.jpg);
+    background-size: cover;
+    background-position-x: right;
+}
+
+#offers h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+#gift-card {
+    background-image: url(img/card.jpg);
+    background-size: cover; 
+    background-position-y: top;
+}
+
+#gift-card h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 142px;
 }

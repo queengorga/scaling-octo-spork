@@ -216,10 +216,10 @@ body {
     top: 0;
     left: 0;
     transform:translate(28%, 25%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform:translate(28%, 25%);
+    -moz-transform:translate(28%, 25%);
+    -ms-transform:translate(28%, 25%);
+    -o-transform:translate(28%, 25%);
 }
 
 .row h1 {
@@ -369,7 +369,7 @@ body {
 #dinner {
     background-image: url(img/dinner.jpg);
     background-size: cover;
-    background-position-x: top;
+    background-position: center;
 }
 
 #dinner button {

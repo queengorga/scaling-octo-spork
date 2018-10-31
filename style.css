@@ -400,10 +400,32 @@
     color: bisque;
 }
 
+.social h3 {
+    font-family: 'Cuprum', sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.social img {
+    height: 40px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.social li {
+    display: inline;    
+    list-style: none; 
+}
+
 .footer-border hr {
     background-color: #024526;
     height: 10px;
     border: 4px solid transparent;
+}
+
+.links h2 {
+    font-family: 'Cuprum', sans-serif; 
+    margin-top: 10px;
 }
 
 .links img {
@@ -415,4 +437,15 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border: 6px solid #024526; 
+    margin: 10px;
+}
+
+.brand h4 {
+    font-family: 'Cuprum', sans-serif; 
+    font-size: 18px;
+}
+
+.brand strong {
+    font-family: 'Harry Potter';
+    letter-spacing: 4px;
 }

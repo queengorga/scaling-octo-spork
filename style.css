@@ -30,6 +30,7 @@ body {
 .navbar-header {
     font-family: 'Harry Potter';
     font-size: 50px;
+    font-weight: lighter;
     color: bisque;
     letter-spacing: 10px;   
     margin-top: -275px;

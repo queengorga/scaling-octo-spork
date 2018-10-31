@@ -41,7 +41,8 @@
 
 .navbar li {
     display: inline;
-    padding-left: 50px;
+    padding-left: 30px;
+    margin-left: 60px;
     text-align: center; 
 }
 
@@ -440,6 +441,16 @@
     -o-border-radius: 50%;
     border: 6px solid #024526; 
     margin: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 .brand h4 {

@@ -127,10 +127,14 @@ body {
 
 .specials {
     height: 180vh;
-    width: 100%; 
-    background-image: url(img/specialsbg.jpg);
-    background-size: cover; 
-    background-position: center; 
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+    url(img/specialsbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: antiquewhite; 
+    background-blend-mode: luminosity;
+   
 }
 
 .order-container img {

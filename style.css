@@ -70,6 +70,7 @@ body {
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position-x: right;
+    background-blend-mode: darken;
     height: 80vh; 
     width: 100%; 
 }
@@ -128,13 +129,12 @@ body {
 .specials {
     height: 180vh;
     width: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
     url(img/specialsbg.jpg);
     background-size: cover;
     background-position: center;
     background-color: antiquewhite; 
     background-blend-mode: luminosity;
-   
 }
 
 .order-container img {
@@ -272,6 +272,7 @@ body {
 #serve {
     background-image: url(img/served.jpg);
     background-size: contain;
+    background-position: center; 
 }
 
 #offers {
@@ -293,6 +294,8 @@ body {
     background-image: url(img/card.jpg);
     background-size: cover; 
     background-position-y: top;
+    background-position: left; 
+    background-blend-mode: darken;
 }
 
 #gift-card h1 {
@@ -374,6 +377,7 @@ body {
     background-image: url(img/dinner.jpg);
     background-size: cover;
     background-position: center;
+    background-blend-mode: darken;
 }
 
 #dinner button {
@@ -383,6 +387,7 @@ body {
 #lunch {
     background-image: url(img/lunch.jpg);
     background-size: cover;
+    background-blend-mode: darken;
 }
 
 #lunch button {

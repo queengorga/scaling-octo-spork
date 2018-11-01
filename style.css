@@ -462,3 +462,30 @@
     font-family: 'Harry Potter';
     letter-spacing: 4px;
 }
+
+/*Menu Page*/
+
+.menu {
+    height: 100vh;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.menu-navbar ul {
+    text-align: center;
+    font-family: 'Almendra SC', serif;
+    font-size: 30px;
+    padding: 30px 0 0 200px;
+}
+
+.menu-navbar li {
+    display: inline;
+    text-align: center; 
+    padding-left: 20px auto;
+}
+
+.menu-navbar a, a:visited {
+    text-decoration: none; 
+    list-style: none;
+    color: none;
+}

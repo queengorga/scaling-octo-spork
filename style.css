@@ -539,7 +539,8 @@
 .offer {
     height: 90vh;
     width: 100%;
-    background-image: url(img/specialsbg.jpg); 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
+    url(img/specialsbg.jpg);
     background-size: cover; 
     background-attachment: fixed;
     background-color: blanchedalmond;
@@ -617,8 +618,8 @@ form h2 {
     font-size: 30px;
     font-weight: bolder;
     margin: -100px 450px;
-    color: ivory;
-    text-shadow: 4px 4px #5E0351;
+    color: #5E0351;
+    text-shadow: 2px 2px ivory;
 }
 
 ::placeholder {
@@ -627,4 +628,11 @@ form h2 {
     font-weight: bold;
     padding-left: 20px;
     color: #5E0351; 
+}
+
+/*Deals Section*/
+.deals {
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
 }

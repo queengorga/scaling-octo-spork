@@ -537,11 +537,13 @@
 /*Offers Page*/
 
 .offer {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-image: url(img/specialsbg.jpg); 
     background-size: cover; 
     background-attachment: fixed;
+    background-color: blanchedalmond;
+    background-blend-mode: luminosity;
 }
 
 .offer-container h1{
@@ -565,6 +567,58 @@ input {
     -o-transform: translate(115%,-125%);
     border: none; 
     margin: 5px;
+}
+
+input[type=checkbox] {
+    height: 20px;
+    width: 20px;
+    left: 0;
+    top: 0;
+    transform: translate(2010%, -250%);
+    -webkit-transform: translate(2010%, -250%);
+    -moz-transform: translate(2010%, -250%);
+    -ms-transform: translate(2010%, -250%);
+    -o-transform: translate(2010%, -250%);
+    background-color: white; 
+    border: 2px solid #5E0351;
+}
+
+input[type=submit] {
+    height: 70px;
+    width: 250px;
+    left: 0;
+    top: 0;
+    transform: translate(-20%, 30%);
+    -webkit-transform: translate(-20%, 30%);
+    -moz-transform: translate(-20%, 30%);
+    -ms-transform: translate(-20%, 30%);
+    -o-transform: translate(-20%, 30%);
+    background: #5E0351;
+    border: 4px solid white;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+input[type=submit]:hover {
+    border: 4px solid #5E0351;
+    background: white;
+    color: #5E0351;
+    font-weight: bolder;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+form h2 {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: -100px 450px;
+    color: ivory;
+    text-shadow: 4px 4px #5E0351;
 }
 
 ::placeholder {

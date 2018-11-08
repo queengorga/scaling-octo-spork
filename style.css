@@ -551,9 +551,10 @@
     font-family: 'Harry Potter'; 
     color: #5E0351;
     text-shadow: 6px 6px 6px ivory;
-    padding: 100px 150px;
-    font-size: 50px;
-    text-align: center; 
+    padding: 125px 50px 100px 50px;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 1.5px; 
 }
 
 input {

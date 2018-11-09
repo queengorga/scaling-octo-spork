@@ -637,3 +637,76 @@ form h2 {
     width: 100%;
     background-color: antiquewhite;
 }
+
+.deals h1 {
+    font-family: 'Harry Potter';
+    font-size: 50px;
+    text-align: center;
+    color: #5E0351;
+    padding-top: 50px;
+    letter-spacing: 4px;
+}
+
+.deals-container {
+    display: inline-flex;
+    padding: 10px 150px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    background-color: white;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card img {
+    height: 300px;
+}
+
+.deals-card {
+    margin: 25px;
+    width: 350px;
+    height: 475px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.deals-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-top: .5px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container h4 {
+    font-family: 'Almendra SC', serif;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 3px;
+    text-align: center;
+    padding: 5px;
+}
+
+.container p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center; 
+}

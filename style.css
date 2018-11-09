@@ -470,7 +470,7 @@
 /*Menu Page*/
 
 .menu {
-    height: 390vh;
+    height: 365vh;
     width: 100%;
     background-color: blanchedalmond;
 }
@@ -480,7 +480,7 @@
     font-family: 'Almendra SC', serif;
     font-size: 30px;
     color: #5E0351;
-    padding: 30px 0 30px 200px;
+    padding: 30px 0 55px 200px;
 }
 
 .menu-navbar li {

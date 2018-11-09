@@ -470,7 +470,7 @@
 /*Menu Page*/
 
 .menu {
-    height: 365vh;
+    height: 390vh;
     width: 100%;
     background-color: blanchedalmond;
 }
@@ -480,13 +480,13 @@
     font-family: 'Almendra SC', serif;
     font-size: 30px;
     color: #5E0351;
-    padding: 30px 0 0 200px;
+    padding: 30px 0 30px 200px;
 }
 
 .menu-navbar li {
     display: inline;
     text-align: center; 
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .menu-navbar a, .menu-bar a:visited {
@@ -499,29 +499,38 @@
     font-family: 'Harry Potter'; 
     font-size: 50px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
     letter-spacing: 5px;
     color: #5E0351;
 }
 
 .app-row {
     display: inline-block;
-    padding-left: 210px; 
+    padding-left: 55px;
     padding-top: 15px;
+    left: 0;
+    top: 0;
+    transform:translate(35%,20%);
+    -moz-transform:translate(35%,20%);
+    -ms-transform:translate(35%,20%);
+    -o-transform:translate(35%,20%);
+    -webkit-transform:translate(35%,20%);
 }
 
 .app-row h3 {
     font-family: 'Almendra SC', serif; 
     font-size: 25px;
+    word-spacing: 3px;
 }
 
 .app-row p {
     font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
 }
 
 .app-row h4 {
     font-family: 'Almendra SC', serif;  
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -529,7 +538,7 @@
     border: 5px solid #5E0351;
     width: 1250px;
     color: #5E0351;
-    margin: 30px auto;
+    margin: 50px auto;
     text-align: center; 
 
 }

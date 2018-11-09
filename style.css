@@ -497,24 +497,24 @@
 
 .app-header h1 {
     font-family: 'Harry Potter'; 
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 5px;
     letter-spacing: 5px;
     color: #5E0351;
 }
 
 .app-row {
     display: inline-block;
-    padding-left: 55px;
+    padding-left: 75px;
     padding-top: 15px;
     left: 0;
     top: 0;
-    transform:translate(35%,20%);
-    -moz-transform:translate(35%,20%);
-    -ms-transform:translate(35%,20%);
-    -o-transform:translate(35%,20%);
-    -webkit-transform:translate(35%,20%);
+    transform:translate(27%,20%);
+    -moz-transform:translate(27%,20%);
+    -ms-transform:translate(27%,20%);
+    -o-transform:translate(27%,20%);
+    -webkit-transform:translate(27%,20%);
 }
 
 .app-row h3 {

@@ -747,14 +747,59 @@ form h2 {
     padding-top: 50px;
 }
 
+.gift-card p {
+    font-family: 'Cuprum', sans-serif;
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 20px 0 50px;
+}
+
 .serve img {
     float: right; 
     height: 625px;
     width: 50%;
 }
 
+.serve h1 {
+    font-family: 'Harry Potter';
+    color: bisque;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.serve p {
+    font-family: 'Cuprum', sans-serif;
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 20px 0 50px;
+}
+
 .more-offer img {
     float: left;
     height: 624px;
     width: 50%;
+}
+
+.more-offer h1 {
+    font-family: 'Harry Potter';
+    color: bisque;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.more-offer p {
+    font-family: 'Cuprum', sans-serif;
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 20px 0 50px;
 }

@@ -719,3 +719,42 @@ form h2 {
     padding: 10px;
     text-align: center; 
 }
+
+/*Special Offers Section*/
+.special-offers {
+    height: 259vh;
+    width: 100%;
+}
+
+.special-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #024526;
+}
+
+.gift-card img {
+    float: left;
+    height: 625px; 
+    width: 50%;
+}
+
+.gift-card h1 {
+    font-family: 'Harry Potter'; 
+    color: bisque;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center; 
+    padding-top: 50px;
+}
+
+.serve img {
+    float: right; 
+    height: 625px;
+    width: 50%;
+}
+
+.more-offer img {
+    float: left;
+    height: 624px;
+    width: 50%;
+}

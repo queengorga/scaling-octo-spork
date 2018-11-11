@@ -750,10 +750,10 @@ form h2 {
 .gift-card p {
     font-family: 'Cuprum', sans-serif;
     color: bisque;
-    font-size: 20px;
-    text-align: center;
+    font-size: 25px;
+    text-align: right;
     padding-top: 20px;
-    margin: 20px 20px 0 50px;
+    margin: 20px 50px 0 50px;
 }
 
 .serve img {
@@ -775,7 +775,7 @@ form h2 {
     font-family: 'Cuprum', sans-serif;
     color: bisque;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
     margin: 20px 20px 0 50px;
 }
@@ -799,7 +799,7 @@ form h2 {
     font-family: 'Cuprum', sans-serif;
     color: bisque;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
     margin: 20px 20px 0 50px;
 }

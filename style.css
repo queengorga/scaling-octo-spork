@@ -756,6 +756,20 @@ form h2 {
     margin: 20px 50px 0 50px;
 }
 
+.gift-card button {
+    height: 50px; 
+    width: 125px; 
+    border: 2px solid ivory; 
+    background: transparent; 
+    font-family: 'Cuprum', sans-serif; 
+    font-size: 20px; 
+    color: ivory;
+    float: right; 
+    margin-right: 55px;
+    margin-top: 20px;
+}
+
+
 .serve img {
     float: right; 
     height: 625px;

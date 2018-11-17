@@ -879,7 +879,7 @@ form h2 {
 /*About Page*/
 
 .about {
-    height: 400vh;
+    height: 450vh;
     width: 100%;
     background-color: bisque;
 }
@@ -958,6 +958,32 @@ form h2 {
 }
 
 .recent-history p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    margin: 20px 80px 5px 80px;
+}
+
+.structure h1 {
+    font-family: 'Harry Potter';
+    font-size: 30px;
+    color: black;
+    letter-spacing: 4px;
+    margin: 50px 0 0 80px;
+}
+
+.structure h2 {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    margin: 10px 0 0 80px;
+}
+
+.structure h3 {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    margin: 20px 80px 5px 80px;
+}
+
+.structure p {
     font-family: 'Cuprum', sans-serif;
     font-size: 25px;
     margin: 20px 80px 5px 80px;

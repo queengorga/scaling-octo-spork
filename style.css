@@ -10,7 +10,7 @@
 }
 
 .header {
-    height: 25vh;
+    height: 30vh;
     width: 100%;
     background-color: #650505;
 }
@@ -28,8 +28,9 @@
     font-size: 50px;
     font-weight: lighter;
     color: bisque;
-    letter-spacing: 10px;   
-    margin: -275px auto 0;
+    letter-spacing: 20px;   
+    margin: -265px auto 25px 0;
+    padding-left: 80px;
     text-align: center;
 }
 
@@ -41,7 +42,7 @@
 
 .navbar li {
     display: inline;
-    padding-left: 30px;
+    padding-left: 30px; 
     margin-left: 60px;
     text-align: center; 
 }

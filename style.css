@@ -1009,6 +1009,7 @@ form h2 {
 .contact {
     height: 200vh;
     width: 100%;
+    background-color: blanchedalmond;
 }
 
 .header-contact {
@@ -1029,4 +1030,41 @@ form h2 {
     color: ivory;
     text-align: center;
     padding-top: 400px;
+}
+
+.contact-questions h1 {
+    font-family: 'Harry Potter';
+    font-size: 40px;
+    letter-spacing: 4px; 
+    text-align: center; 
+    margin: 150px auto;
+    color: #5E0351;
+}
+
+.contact-questions button {
+    position: relative;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 25px;
+    background-color: #65050e;
+    border: none;
+    margin: 10px;
+    height: 80px;
+    width: 250px;
+    transform: translate(185%, -150%);
+    -webkit-transform: translate(185%, -150%);
+    -moz-transform: translate(185%, -150%);
+    -ms-transform: translate(185%, -150%);
+    -o-transform: translate(185%, -150%);
+    color: ivory;
+}
+
+.contact-questions button:hover {
+    background-color: ivory;
+    color: #65050e;
+    border: 4px solid #65050e;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
 }

@@ -1081,7 +1081,8 @@ form h2 {
 
 .contact-accordion {
     background-color: blanchedalmond;
-    height: 80vh;
+    height: 100vh;
+    text-align: center;
 }
 
 .container-faq h1 {
@@ -1090,9 +1091,10 @@ form h2 {
     text-align: center;
     letter-spacing: 5px;
     color: #5E0351;
+    margin-bottom: 30px;
 }
 
-.accordion a {
+.accordion-info a {
     font-family: 'Almendra SC', serif;
     font-size: 25px;
     font-weight: bolder;
@@ -1109,4 +1111,5 @@ form h2 {
 .accordion p {
     font-family: 'Cuprum', sans-serif;
     font-size: 20px;
+    margin-bottom: 20px;
 }

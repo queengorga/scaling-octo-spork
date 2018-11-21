@@ -1003,3 +1003,30 @@ form h2 {
     font-size: 25px;
     margin: 20px 80px 5px 80px;
 }
+
+/*Contact Page*/
+
+.contact {
+    height: 200vh;
+    width: 100%;
+}
+
+.header-contact {
+    background-image: url(img/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: bottom;
+    height: 80vh;
+    width: 100%;
+}
+
+.header-contact h1 {
+    font-family: 'Harry Potter';
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 2px black;
+    color: ivory;
+    text-align: center;
+    padding-top: 400px;
+}

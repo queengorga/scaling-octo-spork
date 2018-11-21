@@ -1007,7 +1007,7 @@ form h2 {
 /*Contact Page*/
 
 .contact {
-    height: 200vh;
+    height: 150vh;
     width: 100%;
     background-color: blanchedalmond;
 }
@@ -1067,4 +1067,45 @@ form h2 {
     -moz-transition: .5s ease-in-out;
     -ms-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
+}
+
+.contact-questions a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-questions a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-accordion {
+    background-color: blanchedalmond;
+    height: 80vh;
+}
+
+.container-faq h1 {
+    font-family: 'Harry Potter';
+    font-size: 40px;
+    text-align: center;
+    color: #5E0351;
+}
+
+.accordion a {
+    font-family: 'Almendra SC', serif;
+    font-size: 25px;
+    font-weight: bolder;
+    word-spacing: 4px;
+}
+
+.accordion h3 {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    word-spacing: 4px;
+}
+
+.accordion p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
 }

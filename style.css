@@ -1313,7 +1313,6 @@ form h2 {
 }
 
 .qb-container input[type=submit]:hover {
-    border: 4px solid #5E0351;
     background: white;
     color: #5E0351;
     font-weight: bolder;

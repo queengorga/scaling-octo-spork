@@ -1399,3 +1399,56 @@ form h2 {
     margin: 20px 120px auto;
     text-align: justify;
 }
+
+.terms-conditions pre {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    margin: 20px 80px auto;
+    text-align: justify;
+}
+
+/*PRIVACY POLICY PAGE*/
+
+.privacy-policy {
+    height: 785vh;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.privacy-policy h1 {
+    font-family: 'Harry Potter';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 4px;
+    color: #5E0351;
+}
+
+.privacy-policy h3 {
+    font-family: 'Almendra SC', serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin: 50px 120px auto;
+}
+
+.privacy-policy li {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    margin: 20px 155px auto;
+    text-align: justify;
+}
+
+.privacy-policy p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    margin: 20px 120px auto;
+    text-align: justify;
+}
+
+.privacy-policy pre {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    margin: 20px 80px auto;
+    text-align: justify;
+}

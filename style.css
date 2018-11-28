@@ -1222,7 +1222,7 @@ form h2 {
 /*Questions and Feedbacks Section*/
 .questions-feedbacks {
     background-color: blanchedalmond;
-    height:120vh;
+    height:135vh;
     width: 100%;
 }
 
@@ -1250,31 +1250,58 @@ form h2 {
     width: 350px;
     left: 0;
     top: 0;
-    transform: translate(115%, 50%);
-    -webkit-transform: translate(115%, 50%);
-    -moz-transform: translate(115%, 50%);
-    -ms-transform: translate(115%, 50%);
-    -o-transform: translate(115%, 50%);
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    transform: translate(108%, 50%);
+    -webkit-transform: translate(108%, 50%);
+    -moz-transform: translate(108%, 50%);
+    -ms-transform: translate(108%, 50%);
+    -o-transform: translate(108%, 50%);
     border: none;
     margin: 5px;
 }
 
+.qb-container select {
+    height: 70px;
+    width: 350px;
+    left: 0;
+    top: 0;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    transform: translate(108%, 50%);
+    -webkit-transform: translate(108%, 50%);
+    -moz-transform: translate(108%, 50%);
+    -ms-transform: translate(108%, 50%);
+    -o-transform: translate(108%, 50%);
+    border: none;
+    margin: 5px;
+    color: #650505;
+}
+
+.qb-container option, .qb-container option::placeholder {
+    font-weight: bold;
+    color: #650505;
+    padding-left: 20px;
+}
+
 .qb-container textarea {
     height: auto;
-    width: 700px;
+    width: 724px;
     font-family: 'Cuprum', sans-serif;
     font-size: 18px;
     padding-top: 20px;
     padding-left: 10px;
     left: 0;
     top: 0;
-    transform: translate(57%, 20%);
-    -webkit-transform: translate(57%, 20%);
-    -moz-transform: translate(57%, 20%);
-    -ms-transform: translate(57%, 20%);
-    -o-transform: translate(57%, 20%);
+    transform: translate(53.5%, 20%);
+    -webkit-transform: translate(53.5%, 20%);
+    -moz-transform: translate(53.5%, 20%);
+    -ms-transform: translate(53.5%, 20%);
+    -o-transform: translate(53.5%, 20%);
     background-color: white;
-    border: none; 
+    border: none;
 }
 
 .qb-container textarea::placeholder {
@@ -1287,11 +1314,11 @@ form h2 {
     width: 20px;
     left: 0;
     top: 0;
-    transform: translate(-1550%, 650%);
-    -webkit-transform: translate(-1550%, 650%);
-    -moz-transform: translate(-1550%, 650%);
-    -ms-transform: translate(-1550%, 650%);
-    -o-transform: translate(-1550%, 650%);
+    transform: translate(-1700%, 650%);
+    -webkit-transform: translate(-1700%, 650%);
+    -moz-transform: translate(-1700%, 650%);
+    -ms-transform: translate(-1700%, 650%);
+    -o-transform: translate(-1700%, 650%);
     background-color: white;
     border: 2px solid #5E0351;
 }

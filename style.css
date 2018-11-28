@@ -1061,7 +1061,6 @@ form h2 {
 .contact-questions button:hover {
     background-color: ivory;
     color: #65050e;
-    border: 4px solid #65050e;
     transition: .5s ease-in-out;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
@@ -1092,6 +1091,7 @@ form h2 {
     text-align: center;
     letter-spacing: 5px;
     color: #5E0351;
+    margin-left: 415px;
     margin-bottom: 30px;
 }
 
@@ -1107,6 +1107,7 @@ form h2 {
     font-size: 20px;
     font-weight: bolder;
     word-spacing: 4px;
+    margin-left: 400px;
 }
 
 .accordion p {
@@ -1116,7 +1117,7 @@ form h2 {
 }
 
 /*Accordion Toggle Effect*/
-
+/*Taken from Katherine Kato on Codepen https://codepen.io/kathykato/pen/MoZJom*/
 *,
 *:before,
 *:after {
@@ -1135,62 +1136,57 @@ form h2 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 100%;
-    padding: 1rem 3rem 1rem 1rem;
+    width: 50%;
+    padding: 1rem;
+    margin-left: 450px;
     color: #650505;
     font-family: 'Almendra SC', serif;
     font-size: 1.5rem;
-    font-weight: 400;
-    border-bottom: 1px solid #e5e5e5;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-align: center: 
 }
 
 .accordion a:hover,
 .accordion a:hover::after {
     cursor: pointer;
-    color: #03b5d2;
+    color: #650505;
 }
 
 .accordion a:hover::after {
-    border: 1px solid #03b5d2;
+    color: #ec7d7d;
 }
 
 .accordion a.active {
-    color: #03b5d2;
-    border-bottom: 1px solid #03b5d2;
+    color: #650505;
+    border-bottom: 1px solid #5E0351;
 }
 
 .accordion a::after {
     font-family: 'Ionicons';
-    content: '\f218';
+    content: '\f100';
     position: absolute;
     float: right;
     right: 1rem;
-    font-size: 1rem;
-    color: #7288a2;
+    font-size: 2rem;
+    color: #650505;
     padding: 5px;
     width: 30px;
     height: 30px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    border-radius: 50%;
-    border: 1px solid #7288a2;
     text-align: center;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .accordion a.active::after {
     font-family: 'Ionicons';
-    content: '\f209';
-    color: #03b5d2;
-    border: 1px solid #03b5d2;
+    content: '\f116';
+    color: #650505;
+    border: none; 
 }
 
 .accordion .accordion-faq {
     opacity: 0;
     padding: 0 1rem;
     max-height: 0;
-    border-bottom: 1px solid #e5e5e5;
     overflow: hidden;
     clear: both;
     -webkit-transition: all 0.2s ease 0.15s;
@@ -1203,6 +1199,7 @@ form h2 {
 .accordion .accordion-faq p {
     font-size: 1rem;
     font-weight: 300;
+    margin-left: 400px;
 }
 
 .accordion .accordion-faq.active {

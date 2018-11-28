@@ -1085,9 +1085,10 @@ form h2 {
 
 .contact-accordion {
     background-color: blanchedalmond;
-    min-height: 100vh;
+    min-height: 70vh;
     text-align: center;
     display: flex;
+    padding-top: 40px;
 }
 
 .container-faq h1 {

@@ -194,6 +194,11 @@
     -o-transition: .5s ease-in-out;
 }
 
+.button-line a, .button-line a:visited {
+    text-decoration: none; 
+    color: inherit;
+}
+
 .delivery-note {
     font-family: 'Cuprum', sans-serif;
     font-size: 30px;

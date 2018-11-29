@@ -37,10 +37,10 @@
         <div class="offer-container">
             <h1>Sign Up for Offers and Rewards</h1>
             <form action="">
-                <input type="text" id="email" name="emailad" placeholder="EMAIL ADDRESS">
-                <input type="text" id="zip" name="zipcode" placeholder="ZIP CODE"><br>
-                <input type="text" id="fname" name="firstname" placeholder="FIRST NAME">
-                <input type="text" id="lname" name="lasttname" placeholder="LAST NAME"><br>
+                <input type="text" type="email" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" required id="email" name="emailad" placeholder="EMAIL ADDRESS">
+                <input type="text" type="number" pattern="[-+]?[0-9]" min="3" max="8" required id="zip" name="zipcode" placeholder="ZIP CODE"><br>
+                <input type="text" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" minlength="3" maxlength="12" required id="fname" name="firstname" placeholder="FIRST NAME">
+                <input type="text" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" minlength="3" maxlength="12" required id="lname" name="lasttname" placeholder="LAST NAME"><br>
                 <input type="checkbox" id="optin" name="optin"><h2>I WANT TO JOIN DINE REWARDS AND GET 50% OFF, UP TO $20, EVERY 4TH VISIT!</p>
                 <input type="submit" id="signup" value="SIGN UP">
             </form>

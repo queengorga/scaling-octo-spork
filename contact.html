@@ -105,15 +105,15 @@
 
                 <form action="">
                 <select name="subject" id="subject-select">
-                    <option value="volvo">Pickup</option>
-                    <option value="saab">Delivery</option>
-                    <option value="opel">Comment</option>
-                    <option value="audi">Question</option>
+                    <option value="pickup">Pickup</option>
+                    <option value="delivery">Delivery</option>
+                    <option value="comment">Comment</option>
+                    <option value="question">Question</option>
                 </select>
-                <input type="text" id="zip" name="zipcode" placeholder="FLOO NETWORK CODE"><br>
-                <input type="text" id="fname" name="firstname" placeholder="FIRST NAME">
-                <input type="text" id="lname" name="lasttname" placeholder="LAST NAME"><br>
-                <textarea name="comment" id="" cols="30" rows="10" placeholder="ORDER FOR PICKUP OR DELIVERY / COMMENT / QUESTION (NO. OF CHARACTERS REMAINING: 2000")></textarea>
+                <input type="text" type="number" pattern="[-+]?[0-9]" min="3" max="8" required id="zip" name="zipcode" placeholder="FLOO NETWORK CODE"><br>
+                <input type="text" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" minlength="3" maxlength="12" required id="fname" name="firstname" placeholder="FIRST NAME">
+                <input type="text" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" minlength="3" maxlength="12" required id="lname" name="lasttname" placeholder="LAST NAME"><br>
+                <textarea name="comment" id="" cols="30" rows="10" minlength="3" maxlength="2000" placeholder="ORDER FOR PICKUP OR DELIVERY / COMMENT / QUESTION (NO. OF CHARACTERS REMAINING: 2000")></textarea>
                 <input type="checkbox" id="optin" name="optin"><h2>YES, I AM AT LEAST 18 YEARS OF AGE. SIGN ME UP FOR EXCLUSIVE EMAILS</p>
                 <input type="submit" id="signup" value="SIGN UP">
             </form>

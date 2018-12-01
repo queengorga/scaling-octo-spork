@@ -1156,7 +1156,7 @@ form h2 {
 .accordion a:hover,
 .accordion a:hover::after {
     cursor: pointer;
-    color: #650505;
+    color: #ec7d7d;
 }
 
 .accordion a:hover::after {

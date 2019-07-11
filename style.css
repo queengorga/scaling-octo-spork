@@ -558,7 +558,7 @@
 /*Offers Page*/
 
 .offer {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
     url(img/specialsbg.jpg);
@@ -572,7 +572,7 @@
     font-family: 'Harry Potter'; 
     color: #5E0351;
     text-shadow: 6px 6px 6px ivory;
-    padding: 125px 50px 100px 50px;
+    padding: 175px 50px 100px 150px;
     font-size: 55px;
     text-align: center;
     letter-spacing: 1.5px; 
@@ -583,26 +583,26 @@ input {
     width: 350px;
     left: 0;
     top: 0;
-    transform: translate(115%,-125%);
-    -webkit-transform: translate(115%,-125%);
-    -moz-transform: translate(115%,-125%);
-    -ms-transform: translate(115%,-125%);
-    -o-transform: translate(115%,-125%);
-    border: none; 
+    transform: translate(182%,-125%);
+    -webkit-transform: translate(182%,-125%);
+    -moz-transform: translate(182%,-125%);
+    -ms-transform: translate(182%,-125%);
+    -o-transform: translate(182%,-125%);
+    border: none;
     margin: 5px;
 }
 
 input[type=checkbox] {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     left: 0;
     top: 0;
-    transform: translate(2010%, -250%);
-    -webkit-transform: translate(2010%, -250%);
-    -moz-transform: translate(2010%, -250%);
-    -ms-transform: translate(2010%, -250%);
-    -o-transform: translate(2010%, -250%);
-    background-color: white; 
+    transform: translate(2550%, -192%);
+    -webkit-transform: translate(2550%, -192%);
+    -moz-transform: translate(2550%, -192%);
+    -ms-transform: translate(2550%, -192%);
+    -o-transform: translate(2550%, -192%);
+    background-color: white;
     border: 2px solid #5E0351;
 }
 
@@ -637,11 +637,11 @@ input[type=submit]:hover {
 
 form h2 {
     font-family: 'Cuprum', sans-serif;
-    font-size: 30px;
+    font-size: 1.75rem;
     font-weight: bolder;
-    margin: -100px 450px;
+    margin: -78px 0 0 690px;
     color: #5E0351;
-    text-shadow: 2px 2px ivory;
+    text-shadow: 4px 4px 4px ivory;
 }
 
 ::placeholder {

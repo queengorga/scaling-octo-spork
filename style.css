@@ -10,26 +10,26 @@
 }
 
 .header {
-    height: 30vh;
+    height: 20vh;
     width: 100%;
     background-color: #650505;
 }
 
 .header img {
-    height: 30vh;
+    height: 25vh;
     width: 15vw;
     border: 12px solid #024526;
     background-position-x: top;
-    margin: 34px;
+    margin: 35px;
 }
 
-.navbar-header {
+.navbar h1 {
     font-family: 'Harry Potter';
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: lighter;
     color: bisque;
     letter-spacing: 20px;   
-    margin: -265px auto 25px 0;
+    margin: -300px auto 25px 0;
     padding-left: 80px;
     text-align: center;
 }
@@ -38,6 +38,7 @@
     text-align: center;
     margin-left: 175px;
     padding-left: 30px;
+    font-size: 1.5rem;
 }
 
 .navbar li {
@@ -53,7 +54,7 @@
     color: inherit;
     font-family: 'Harry Potter';
     color: bisque;
-    font-size: 37px;
+    font-size: 2rem;
     letter-spacing: 5px;
 }
 

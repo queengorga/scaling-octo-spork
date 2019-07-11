@@ -664,19 +664,19 @@ form h2 {
     font-size: 50px;
     text-align: center;
     color: #5E0351;
-    padding-top: 50px;
+    padding-top: 80px;
     letter-spacing: 4px;
 }
 
 .deals-container {
     display: inline-flex;
-    padding: 10px 150px;
+    padding: 50px 200px;
     margin: 0 auto;
 }
 
 .card {
-    width: 350px;
-    height: 250px;
+    width: 450px;
+    height: 550px;
     background-color: white;
 }
 
@@ -691,13 +691,13 @@ form h2 {
 }
 
 .card img {
-    height: 300px;
+    height: 350px;
 }
 
 .deals-card {
     margin: 25px;
-    width: 350px;
-    height: 475px;
+    width: 450px;
+    height: 560px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
 }
@@ -718,7 +718,7 @@ form h2 {
 
 .container h4 {
     font-family: 'Almendra SC', serif;
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: bold;
     word-spacing: 3px;
     text-align: center;
@@ -727,14 +727,14 @@ form h2 {
 
 .container p {
     font-family: 'Cuprum', sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     padding: 10px;
     text-align: center; 
 }
 
 /*Special Offers Section*/
 .special-offers {
-    height: 268vh;
+    height: 233.5vh;
     width: 100%;
     background-color: #024526;
 }
@@ -747,8 +747,8 @@ form h2 {
 
 .gift-card img {
     float: left;
-    height: 625px; 
-    width: 50%;
+    height: 75vh; 
+    width: 30%;
 }
 
 .gift-card h1 {
@@ -757,7 +757,7 @@ form h2 {
     font-size: 40px;
     letter-spacing: 5px;
     text-align: center; 
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .gift-card p {
@@ -766,7 +766,8 @@ form h2 {
     font-size: 25px;
     text-align: right;
     padding-top: 20px;
-    margin: 20px 50px 0 50px;
+    padding: 2rem 6rem 0 6rem;
+    line-height: 1.5;
 }
 
 .gift-card button {
@@ -779,8 +780,8 @@ form h2 {
     font-size: 25px;
     color: ivory;
     float: right;
-    margin-right: 55px;
-    margin-top: 20px;
+    margin-right: 100px;
+    margin-top: 30px;
 }
 
 .gift-card button:hover {
@@ -795,7 +796,7 @@ form h2 {
 
 .serve img {
     float: right; 
-    height: 625px;
+    height: 85vh;
     width: 50%;
 }
 
@@ -805,7 +806,7 @@ form h2 {
     font-size: 40px;
     letter-spacing: 5px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 85px;
 }
 
 .serve p {
@@ -815,6 +816,7 @@ form h2 {
     text-align: left;
     padding-top: 20px;
     margin: 20px 50px 0 50px;
+    line-height: 1.5;
 }
 
 .serve button {
@@ -828,7 +830,7 @@ form h2 {
     color: ivory;
     float: left;
     margin-left: 55px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .serve button:hover {

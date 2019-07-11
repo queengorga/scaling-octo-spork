@@ -129,7 +129,7 @@
 /* Specials Section*/
 
 .specials {
-    height: 180vh;
+    height: 145vh;
     width: 100%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
     url(img/specialsbg.jpg);
@@ -137,6 +137,10 @@
     background-position: center;
     background-color: antiquewhite; 
     background-blend-mode: luminosity;
+}
+
+.order-container, .specials-row, .menus-row {
+    margin-left: 11rem;
 }
 
 .order-container img {

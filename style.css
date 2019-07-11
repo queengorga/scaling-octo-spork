@@ -85,11 +85,11 @@
     letter-spacing: 5px;
     text-align: center;
     text-shadow: 2px 2px black;
-    transform:translate(-5%, 50%);
-    -moz-transform:translate(-5%, 50%);
-    -ms-transform:translate(-5%, 50%);
-    -o-transform:translate(-5%, 50%);
-    -webkit-transform:translate(-5%, 50%);
+    transform:translate(-5%, 75%);
+    -moz-transform:translate(-5%, 75%);
+    -ms-transform:translate(-5%, 75%);
+    -o-transform:translate(-5%, 75%);
+    -webkit-transform:translate(-5%, 75%);
 }
 
 .welcome-text button {
@@ -101,11 +101,11 @@
     background-color: transparent;
     height: 80px;
     width: 275px;
-    transform: translate(250%, 175%);
-    -webkit-transform: translate(250%, 175%);
-    -moz-transform: translate(250%, 175%);
-    -ms-transform: translate(250%, 175%);
-    -o-transform: translate(250%, 175%);
+    transform: translate(300%, 255%);
+    -webkit-transform: translate(300%, 255%);
+    -moz-transform: translate(300%, 255%);
+    -ms-transform: translate(300%, 255%);
+    -o-transform: translate(300%, 255%);
 }
 
 .welcome-text button:hover {

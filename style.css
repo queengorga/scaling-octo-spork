@@ -1020,7 +1020,7 @@ form h2 {
 /*Contact Page*/
 
 .contact {
-    height: 150vh;
+    height: 145vh;
     width: 100%;
     background-color: blanchedalmond;
 }
@@ -1063,11 +1063,11 @@ form h2 {
     margin: 10px;
     height: 80px;
     width: 250px;
-    transform: translate(195%, -150%);
-    -webkit-transform: translate(195%, -150%);
-    -moz-transform: translate(195%, -150%);
-    -ms-transform: translate(195%, -150%);
-    -o-transform: translate(195%, -150%);
+    transform: translate(270%, -150%);
+    -webkit-transform: translate(270%, -150%);
+    -moz-transform: translate(270%, -150%);
+    -ms-transform: translate(270%, -150%);
+    -o-transform: translate(270%, -150%);
     color: ivory;
 }
 
@@ -1096,29 +1096,33 @@ form h2 {
     min-height: 70vh;
     text-align: center;
     display: flex;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 .container-faq h1 {
     font-family: 'Harry Potter';
-    font-size: 40px;
+    font-size: 3rem;
     text-align: center;
     letter-spacing: 5px;
     color: #5E0351;
-    margin-left: 415px;
     margin-bottom: 30px;
+    margin-left: 11em;
+}
+
+.accordion-info {
+    margin-left: 7em;
 }
 
 .accordion-info a {
     font-family: 'Almendra SC', serif;
-    font-size: 25px;
+    font-size: 2rem !important;
     font-weight: bolder;
     word-spacing: 4px;
 }
 
 .accordion h3 {
     font-family: 'Cuprum', sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bolder;
     word-spacing: 4px;
     margin-left: 400px;
@@ -1126,7 +1130,7 @@ form h2 {
 
 .accordion p {
     font-family: 'Cuprum', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem !important;
     margin-bottom: 20px;
 }
 
@@ -1230,13 +1234,13 @@ form h2 {
 /*Questions and Feedbacks Section*/
 .questions-feedbacks {
     background-color: blanchedalmond;
-    height:135vh;
+    height:105vh;
     width: 100%;
 }
 
 .qb-container h1 {
     font-family: 'Harry Potter';
-    font-size: 40px;
+    font-size: 3rem;
     text-align: center;
     letter-spacing: 5px;
     color: #5E0351;
@@ -1246,7 +1250,7 @@ form h2 {
 
 .qb-container h3 {
     font-family: 'Cuprum', sans-serif;
-    font-size: 25px;
+    font-size: 2rem;
     font-weight: bolder;
     word-spacing: 4px;
     text-align: center;
@@ -1261,11 +1265,11 @@ form h2 {
     font-family: 'Cuprum', sans-serif;
     font-size: 20px;
     padding-left: 10px;
-    transform: translate(108%, 50%);
-    -webkit-transform: translate(108%, 50%);
-    -moz-transform: translate(108%, 50%);
-    -ms-transform: translate(108%, 50%);
-    -o-transform: translate(108%, 50%);
+    transform: translate(157%, 50%);
+    -webkit-transform: translate(157%, 50%);
+    -moz-transform: translate(157%, 50%);
+    -ms-transform: translate(157%, 50%);
+    -o-transform: translate(157%, 50%);
     border: none;
     margin: 5px;
 }
@@ -1278,11 +1282,11 @@ form h2 {
     font-family: 'Cuprum', sans-serif;
     font-size: 20px;
     padding-left: 10px;
-    transform: translate(108%, 50%);
-    -webkit-transform: translate(108%, 50%);
-    -moz-transform: translate(108%, 50%);
-    -ms-transform: translate(108%, 50%);
-    -o-transform: translate(108%, 50%);
+    transform: translate(157%, 50%);
+    -webkit-transform: translate(157%, 50%);
+    -moz-transform: translate(157%, 50%);
+    -ms-transform: translate(157%, 50%);
+    -o-transform: translate(157%, 50%);
     border: none;
     margin: 5px;
     color: #650505;
@@ -1296,18 +1300,18 @@ form h2 {
 
 .qb-container textarea {
     height: auto;
-    width: 724px;
+    width: 722px;
     font-family: 'Cuprum', sans-serif;
     font-size: 18px;
     padding-top: 20px;
     padding-left: 10px;
     left: 0;
     top: 0;
-    transform: translate(53.5%, 20%);
-    -webkit-transform: translate(53.5%, 20%);
-    -moz-transform: translate(53.5%, 20%);
-    -ms-transform: translate(53.5%, 20%);
-    -o-transform: translate(53.5%, 20%);
+    transform: translate(78%, 20%);
+    -webkit-transform: translate(78%, 20%);
+    -moz-transform: translate(78%, 20%);
+    -ms-transform: translate(78%, 20%);
+    -o-transform: translate(78%, 20%);
     background-color: white;
     border: none;
 }
@@ -1322,11 +1326,11 @@ form h2 {
     width: 20px;
     left: 0;
     top: 0;
-    transform: translate(-1700%, 650%);
-    -webkit-transform: translate(-1700%, 650%);
-    -moz-transform: translate(-1700%, 650%);
-    -ms-transform: translate(-1700%, 650%);
-    -o-transform: translate(-1700%, 650%);
+    transform: translate(-850%, 550%);
+    -webkit-transform: translate(-850%, 550%);
+    -moz-transform: translate(-850%, 550%);
+    -ms-transform: translate(-850%, 550%);
+    -o-transform: translate(-850%, 550%);
     background-color: white;
     border: 2px solid #5E0351;
 }
@@ -1336,11 +1340,11 @@ form h2 {
     width: 250px;
     left: 0;
     top: 0;
-    transform: translate(-20%, 30%);
-    -webkit-transform: translate(-20%, 30%);
-    -moz-transform: translate(-20%, 30%);
-    -ms-transform: translate(-20%, 30%);
-    -o-transform: translate(-20%, 30%);
+    transform: translate(210%, -30%);
+    -webkit-transform: translate(210%, -30%);
+    -moz-transform: translate(210%, -30%);
+    -ms-transform: translate(210%, -30%);
+    -o-transform: translate(210%, -30%);
     background: #5E0351;
     border: 4px solid #5E0351;
     font-family: 'Cuprum', sans-serif;
@@ -1361,9 +1365,9 @@ form h2 {
 
 .qb-container form h2 {
     font-family: 'Cuprum', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bolder;
-    margin: 80px 450px;
+    margin: 80px 0 50px 605px;
     color: #5E0351;
     text-shadow: 2px 2px ivory;
 }

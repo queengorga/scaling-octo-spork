@@ -101,11 +101,11 @@
     background-color: transparent;
     height: 80px;
     width: 275px;
-    transform: translate(300%, 255%);
-    -webkit-transform: translate(300%, 255%);
-    -moz-transform: translate(300%, 255%);
-    -ms-transform: translate(300%, 255%);
-    -o-transform: translate(300%, 255%);
+    transform: translate(310%, 255%);
+    -webkit-transform: translate(310%, 255%);
+    -moz-transform: translate(310%, 255%);
+    -ms-transform: translate(310%, 255%);
+    -o-transform: translate(310%, 255%);
 }
 
 .welcome-text button:hover {

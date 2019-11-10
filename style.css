@@ -407,11 +407,12 @@
 
 /*Footer Section*/
 .footer {
-    height: 56vh; 
+    height: 60vh; 
     width: 100%; 
     background-color: #650505;
     text-align: center; 
     color: bisque;
+    margin-bottom: -25px;
 }
 
 .top {
@@ -430,7 +431,7 @@
 
 .social h3 {
     font-family: 'Cuprum', sans-serif;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 20px;
 }
 
@@ -481,7 +482,7 @@
 /*Menu Page*/
 
 .menu {
-    height: 345vh;
+    height: 346vh;
     width: 100%;
     background-color: blanchedalmond;
 }
